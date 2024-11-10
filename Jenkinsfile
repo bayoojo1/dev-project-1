@@ -14,12 +14,12 @@ node {
         }
     }
 
-    stage('Test image') {
-        // Run tests inside the container
-        app.inside('-w /usr/src/app') {
-            sh 'echo "Tests passed"'
-        }
-    }
+    // stage('Test image') {
+    //     // Run tests inside the container
+    //     app.inside('-w /usr/src/app') {
+    //         sh 'echo "Tests passed"'
+    //     }
+    // }
 
     stage('Push image') {
         // Push image to Docker Hub with registry credentials
