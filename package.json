@@ -1,0 +1,25 @@
+{
+  "name": "dev-project-1",
+  "version": "1.0.0",
+  "description": "A devops project with Jenkins",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayoojo1/dev-project-1.git"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "dockerfile",
+    "jenkins"
+  ],
+  "author": "bayoojo1@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bayoojo1/dev-project-1/issues"
+  },
+  "homepage": "https://github.com/bayoojo1/dev-project-1#readme"
+}
