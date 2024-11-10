@@ -29,9 +29,9 @@ node {
         }
     }
 
-    stage('Cleanup') {
-        // Clean up to free space by removing the image after pushing
-        sh "docker rmi bayoojo1/dev-project-1:${env.BUILD_NUMBER}"
-        sh "docker rmi bayoojo1/dev-project-1:latest"
-    }
+    // stage('Cleanup') {
+    //     // Clean up to free space by removing the image after pushing
+    //     sh "docker rmi bayoojo1/dev-project-1:${env.BUILD_NUMBER}"
+    //     sh "docker rmi bayoojo1/dev-project-1:latest"
+    // }
 }
